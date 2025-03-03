@@ -1,0 +1,147 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: #ffffff;
+}
+
+.navbar {
+  background-color: #f4f6f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav {
+  margin: auto;
+}
+.navbar-nav .nav-link {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  padding: 10px 15px;
+}
+
+body {
+  background-color: #f4f6f9;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+.sidebar {
+  background-color: #343a40;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+img {
+  width: 140px;
+  height: 140px;
+  border-radius: 0%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 15px;
+}
+
+.contact a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+}
+.contact a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  padding: 0 20px;
+}
+
+.section-title {
+  color: #6c757d;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #000000;
+  padding-bottom: 5px;
+}
+
+.job {
+  margin-bottom: 20px;
+}
+.job h4 {
+  font-size: 20px;
+  color: #000000;
+}
+.job ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+.job li {
+  margin-bottom: 5px;
+}
+
+.skills ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skills li {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 0 10px;
+  }
+  .sidebar {
+    margin-bottom: 20px;
+  }
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.social-icons {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.social-icons a {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.social-icons a:hover {
+  transform: scale(1.2);
+}
+.social-icons svg {
+  width: 30px;
+  height: 30px;
+  fill: white;
+}
+
+@media (max-width: 768px) {
+  .bio-container {
+    padding: 20px;
+  }
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  }
+}/*# sourceMappingURL=style.css.map */
